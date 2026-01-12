@@ -1,0 +1,14 @@
+button {
+  background-color: var(--red-background);
+  max-width: 120px;
+  border-radius: 10px;
+  border: none;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+  scale: 1.1;
+}

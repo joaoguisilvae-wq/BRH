@@ -1,0 +1,30 @@
+.content {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content #pricipal {
+  background-image: url(../assets/sp.jpg);
+}
+
+.content #nome-empresa-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.content #agendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+#agendar-btn {
+  width: 100%;
+  height: 50px;
+}

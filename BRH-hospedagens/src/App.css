@@ -1,0 +1,35 @@
+:root {
+  --background-color: #ccc;
+  --font-color: #333;
+  --red-background: #8d0808;
+  --highlighted-text: #8d0808;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body.dark {
+  --background-color: #333;
+  --font-color: #ccc;
+}
+
+.hide {
+  display: none;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
